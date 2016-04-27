@@ -1,0 +1,255 @@
+/**
+ * Popular stylesheet for Contractor.
+ *
+ * @package Contractor
+ * @author  KingKongThemes
+ * @link	http://www.kingkongthemes.com
+/*--------------------------------------------------------------
+	CSS Overview
+---------------------------------------------------------------
+
+	1. Sticky
+	2. Core Owl Carousel CSS File
+
+---------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+	1. Sticky
+--------------------------------------------------------------*/
+.admin-bar .is-sticky{
+	top: 32px !important;
+}
+.header-sticky .is-sticky{
+	top: 103px !important;
+}
+.admin-bar.header-sticky .is-sticky{
+	top: 135px !important;
+}
+
+/*--------------------------------------------------------------
+	2. Core Owl Carousel CSS File
+--------------------------------------------------------------*/
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+	overflow: hidden;
+}
+.owl-carousel.pagi-top, .owl-carousel.pagi-bottom{
+	overflow: visible;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-carousel .owl-item > *{
+	display: inline-block;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width: 100%;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+.owl-theme .owl-controls{
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div {
+	background: none repeat scroll 0 0 #fff;
+    border-radius: 2px;
+    color: #3d3d3d;
+    cursor: pointer;
+    display: block;
+    font-size: 25px;
+    height: 60px;
+	width: 60px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: calc(50% - 30px);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+	-moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+	-ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+	-webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    z-index: 20;
+    opacity: 1;
+	transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+    color: #3d3d3d;
+}
+.owl-theme .owl-controls .owl-buttons div i {
+	line-height: 60px;
+	transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	padding:0 0 0 30px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-prev {
+	left: -75px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next {
+	right: -75px;
+}
+.owl-theme .owl-controls .owl-buttons div.owl-next i {
+	padding:0 30px 0 0;
+	}
+.owl-theme:hover .owl-controls .owl-buttons div,
+.k2t-thumb-gallery.owl-theme .owl-controls .owl-buttons div {
+	opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+	color:#ffbe2a;
+}
+.owl-theme:hover .owl-controls .owl-buttons div.owl-prev {
+	left: -35px;
+}
+.owl-theme:hover .owl-controls .owl-buttons div.owl-next{
+	right: -35px;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background:none;
+	border:2px solid #e1e1e1;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	border:2px solid #ffbe2a;
+	transition:all ease-in-out .3s;
+	-moz-transition:all ease-in-out .3s;
+	-ms-transition:all ease-in-out .3s;
+	-webkit-transition:all ease-in-out .3s;
+}
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* Pagination Style 2 */
+.pagi-style-2.owl-theme .owl-controls .owl-page span {
+	width: 10px;
+	height: 10px;
+	background: #3d414b;
+	margin: 3px;
+}
+.pagi-style-2.owl-theme .owl-controls .owl-page.active span,
+.pagi-style-2.owl-theme .owl-controls.clickable .owl-page:hover span {
+	border: 2px solid #ffbe2a;
+	background: none;
+}
+
+/* Pagination postion */
+.pagi-top {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.pagi-top .owl-pagination{
+	margin-bottom: 0;
+    position: absolute;
+    top: -35px;
+    width: 100%;
+}
+.pagi-bottom{
+	margin-bottom: 42px;
+}
+.pagi-bottom .owl-pagination{
+	bottom: -32px;
+    position: absolute;
+    width: 100%;
+}
+.pagi-on_slider .owl-controls{
+	height: 0;
+}
+.pagi-on_slider .owl-pagination{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    bottom: 45px;
+    display: inline-block;
+    height: 26px;
+    padding: 3px 7px 0;
+    position: relative;
+}
+.pagi-style-2.pagi-on_slider .owl-pagination{
+	height: 23px;
+}
