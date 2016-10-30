@@ -1,0 +1,5 @@
+[08-Apr-2016 23:31:13 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/aldeebct1/public_html/wp-content/themes/contractor/framework/index.php on line 45
+[11-Apr-2016 23:54:09 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/aldeebct1/public_html/wp-content/themes/contractor/framework/index.php on line 45
+[12-Apr-2016 18:26:54 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/aldeebct1/public_html/wp-content/themes/contractor/framework/index.php on line 45
+[13-Apr-2016 13:47:18 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/aldeebct1/public_html/wp-content/themes/contractor/framework/index.php on line 45
+[18-Apr-2016 15:36:38 America/Chicago] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/aldeebct1/public_html/wp-content/themes/contractor/framework/index.php on line 45

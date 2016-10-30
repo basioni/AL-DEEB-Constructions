@@ -1,0 +1,4 @@
+[08-Apr-2016 13:54:08 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/aldeebct1/public_html/wp-content/plugins/loco-translate/loco.php on line 33
+[08-Apr-2016 23:31:12 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/aldeebct1/public_html/wp-content/plugins/loco-translate/loco.php on line 33
+[12-Apr-2016 06:33:33 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/aldeebct1/public_html/wp-content/plugins/loco-translate/loco.php on line 33
+[18-Apr-2016 15:36:21 America/Chicago] PHP Fatal error:  Call to undefined function is_admin() in /home/aldeebct1/public_html/wp-content/plugins/loco-translate/loco.php on line 33

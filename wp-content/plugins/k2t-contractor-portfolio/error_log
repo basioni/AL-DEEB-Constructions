@@ -1,0 +1,5 @@
+[13-Apr-2016 22:00:49 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/aldeebct1/public_html/wp-content/plugins/k2t-contractor-portfolio/init.php on line 12
+[14-Apr-2016 03:29:21 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/aldeebct1/public_html/wp-content/plugins/k2t-contractor-portfolio/init.php on line 12
+[14-Apr-2016 07:58:33 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/aldeebct1/public_html/wp-content/plugins/k2t-contractor-portfolio/init.php on line 12
+[14-Apr-2016 10:26:11 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/aldeebct1/public_html/wp-content/plugins/k2t-contractor-portfolio/init.php on line 12
+[18-Apr-2016 15:36:31 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/aldeebct1/public_html/wp-content/plugins/k2t-contractor-portfolio/init.php on line 12
